@@ -41,8 +41,10 @@ const App = () => {
     
     return (
         <div>
+            {left}
             <Button text={'left'} handleClick={handleLeftClick}/>
             <Button text={'right'} handleClick={handleRightClick} />
+            {right}
             <History allClicks={allClicks}/>
         </div>
     )
